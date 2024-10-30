@@ -18,14 +18,14 @@ class MetaMeister{
     }
 
     ReplaceMetaTitle(){
-        const FoundElement = document.querySelector(`[data-metameister="title"]`)
+        const FoundElement = document.querySelector(`#metameister-title`)
         if(FoundElement){
             window.title = FoundElement.textContent;
         }
     }
 
     ReplaceMetaDescription(){
-        const FoundElement = document.querySelector(`[data-metameister="description"]`)
+        const FoundElement = document.querySelector(`#metameister-description`)
         const MetaDescriptionElement = document.querySelector('meta[name="description"]');
         let $metaDescription = document.createElement("meta");
 
