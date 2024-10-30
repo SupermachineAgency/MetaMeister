@@ -13,8 +13,10 @@ Add tag to element: data-metameister="title/description"
 class MetaMeister{
 
     constructor(){
-        this.Run();
-        console.log("MetaMeister: done")
+        window.addEventListener('load', function () {
+            this.Run();
+            console.log("MetaMeister: done")
+        });
     }
 
     ReplaceMetaTitle(){
