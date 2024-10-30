@@ -33,6 +33,8 @@ class MetaMeister{
         } else{
             let $metaDescription = document.createElement("meta");
             $metaDescription.setAttribute("content", FoundElement.textContent)
+            document.getElementsByTagName('head')[0].appendChild($metaDescription);
+
         }
     }
 
