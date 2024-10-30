@@ -37,7 +37,6 @@ class MetaMeister{
         //meta tag + element with text to replace description with are found on page
         if(FoundElement && MetaDescriptionElement){
             $metaDescription.setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0');
-
         }
     }
 
