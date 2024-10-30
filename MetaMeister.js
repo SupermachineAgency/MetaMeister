@@ -19,7 +19,7 @@ class MetaMeister{
     ReplaceMetaTitle(){
         const FoundElement = document.querySelector(`#metameister-title`)
         if(FoundElement){
-            window.title = FoundElement.textContent;
+            document.title = FoundElement.textContent;
         }
     }
 
