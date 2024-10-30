@@ -12,7 +12,7 @@ class MetaMeister{
 
     constructor(){
         console.log("working")
-        run();
+        this.Run();
     }
 
     ReplaceMetaTitle(){
@@ -39,7 +39,7 @@ class MetaMeister{
         }
     }
 
-    run(){
+    Run(){
         this.ReplaceMetaTitle();
         this.ReplaceMetaDescription();
     }
