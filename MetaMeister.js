@@ -7,7 +7,7 @@ class MetaMeister{
     Selector_title= "title";
     Selector_description= "description"
 
-    constructor(_Selector_title, _Selector_description){
+    constructor(){
         run();
     }
 
