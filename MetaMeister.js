@@ -26,16 +26,13 @@ class MetaMeister{
     ReplaceMetaDescription(){
         const FoundElement = document.querySelector(`#metameister-description`)
         const MetaDescriptionElement = document.querySelector('meta[name="description"]');
-        let $metaDescription = document.createElement("meta");
-
-        //if no meta tag is on the page yet
-        if(MetaDescriptionElement == null){
-            document.getElementsByTagName("head")[0].appendChild($metaDescription);
-        }
 
         //meta tag + element with text to replace description with are found on page
         if(FoundElement && MetaDescriptionElement){
-            $metaDescription.setAttribute('content', FoundElement.textContent);
+            MetaDescriptionElement.setAttribute('content', FoundElement.textContent);
+        } else{
+            let $metaDescription = document.createElement("meta");
+            $metaDescription.setAttribute("content", FoundElement.textContent)
         }
     }
 
