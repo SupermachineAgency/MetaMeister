@@ -4,8 +4,6 @@ data-metameister-title: page title
 data-metameister-description: meta description
 */ 
 class MetaMeister{
-    Selector_title= "title";
-    Selector_description= "description"
 
     constructor(){
         run();
