@@ -44,3 +44,4 @@ export class MetaMeister{
     }
 
 }
+export default MetaMeister;
