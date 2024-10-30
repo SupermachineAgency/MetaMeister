@@ -4,7 +4,9 @@ Author: Jules Victor (https://github.com/jules-victor)
 
 
 Usage:
-import script: <script src="https://supermachineagency.github.io/MetaMeister/MetaMeister.js"></script>
+import script: 
+<script src="https://supermachineagency.github.io/MetaMeister/MetaMeister.js"></script>
+<script>const metameister= new MetaMeister();</script>
 Add tag to element: data-metameister="title/description"
 
 */ 
