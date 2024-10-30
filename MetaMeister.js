@@ -10,7 +10,7 @@ import script:
 Add tag to element: data-metameister="title/description"
 
 */ 
-class MetaMeister{
+export class MetaMeister{
 
     constructor(){
     }
@@ -44,4 +44,3 @@ class MetaMeister{
     }
 
 }
-export default MetaMeister
