@@ -10,7 +10,7 @@ import script:
 Add tag to element: data-metameister="title/description"
 
 */ 
-export class MetaMeister{
+class MetaMeister{
 
     constructor(){
     }
