@@ -20,7 +20,7 @@ class MetaMeister{
         const FoundElement = document.querySelector(`#metameister-title`)
         if(FoundElement){
             document.title = FoundElement.textContent;
-            const ogTitle = document.querySelector('meta[property="og:title"]');
+            const ogTitle = document.querySelector('meta[property=og:title]');
             ogTitle.setAttribute('content', FoundElement.textContent);
         }
     }
