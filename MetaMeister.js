@@ -13,7 +13,8 @@ Add tag to element: data-metameister="title/description"
 class MetaMeister{
 
     constructor(){
-        window.addEventListener('load', this.Run);
+        const metameister= MetaMeister();
+        metameister.Run();
     }
 
     ReplaceMetaTitle(){
@@ -40,8 +41,8 @@ class MetaMeister{
     }
 
     Run(){
-        this.ReplaceMetaTitle();
-        this.ReplaceMetaDescription();
+        this.ReplaceMetaDescription()
+        this.ReplaceMetaTitle()
     }
 
 }
