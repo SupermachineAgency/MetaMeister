@@ -1,11 +1,17 @@
 /*
 A small script to automate setting meta tags.
 Author: Jules Victor (https://github.com/jules-victor)
-Usage: data-metameister="title/description"
+
+
+Usage:
+import script: <script src="https://supermachineagency.github.io/MetaMeister/MetaMeister.js"></script>
+Add tag to element: data-metameister="title/description"
+
 */ 
 class MetaMeister{
 
     constructor(){
+        console.log("working")
         run();
     }
 
