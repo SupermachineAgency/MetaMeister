@@ -13,8 +13,6 @@ Add tag to element: data-metameister="title/description"
 class MetaMeister{
 
     constructor(){
-        const metameister= MetaMeister();
-        metameister.Run();
     }
 
     ReplaceMetaTitle(){
@@ -46,3 +44,4 @@ class MetaMeister{
     }
 
 }
+export default MetaMeister
