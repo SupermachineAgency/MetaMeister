@@ -29,7 +29,7 @@ class MetaMeister{
         let $metaDescription = document.createElement("meta");
 
         //if no meta tag is on the page yet
-        if(MetaDescriptionElement){
+        if(!MetaDescriptionElement){
             document.getElementsByTagName("head")[0].appendChild($metaDescription);
         }
 
