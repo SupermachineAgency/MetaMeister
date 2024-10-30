@@ -1,7 +1,7 @@
-//data tags and their relation to the meta tags
 /*
-data-metameister-title: page title
-data-metameister-description: meta description
+A small script to automate setting meta tags.
+Author: Jules Victor (https://github.com/jules-victor)
+Usage: data-metameister="title/description"
 */ 
 class MetaMeister{
 
